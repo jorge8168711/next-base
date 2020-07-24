@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-base",
+  "name": "next-base",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,27 @@
     "start": "next start"
   },
   "dependencies": {
+    "autoprefixer": "^9.8.5",
+    "cssnano": "^4.1.10",
     "next": "9.4.4",
+    "nprogress": "^0.2.0",
+    "postcss-custom-properties": "^9.1.1",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.3",
+    "postcss-preset-env": "^6.7.0",
+    "prop-types": "^15.7.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "tailwindcss": "^1.5.2"
+  },
+  "devDependencies": {
+    "eslint": "7.2.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "4.0.0",
+    "prettier": "2.0.5"
   }
 }
