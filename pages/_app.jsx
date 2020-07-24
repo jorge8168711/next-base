@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import '../index.css';
+import '../styles/index.css';
 import Router from 'next/router';
 import NProgress from 'nprogress';
 
