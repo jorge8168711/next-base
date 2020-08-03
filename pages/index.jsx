@@ -6,7 +6,6 @@ export default function Home() {
     <div className='flex flex-col items-center justify-center min-h-screen bg-gray-300'>
       <Head>
         <title>Initial next base</title>
-        <link rel='icon' href='/favicon.ico' />
       </Head>
 
       <main className='p-8 mb-8 bg-white rounded shadow'>
