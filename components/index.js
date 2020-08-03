@@ -1,4 +1,5 @@
 import LangSelector from './LangSelector';
+import Layout from './Layout';
 
-// eslint-disable-next-line import/prefer-default-export
 export { LangSelector };
+export { Layout };

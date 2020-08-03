@@ -4,6 +4,7 @@ import { locales, languageNames } from '../translations/config';
 import { LocaleContext } from '../context/LocaleContext';
 
 const regex = new RegExp(`^/(${locales.join('|')})`);
+
 const LangSelector = () => {
   const router = useRouter();
   const { locale } = useContext(LocaleContext);
@@ -18,9 +19,7 @@ const LangSelector = () => {
       value={locale}
       onChange={handleLocaleChange}>
       {locales.map((item) => (
-        <option value={item} key={item}>
-          {languageNames[item]}
-        </option>
+        <option value={item} key={item}>{languageNames[item]}</option>
       ))}
     </select>
 
